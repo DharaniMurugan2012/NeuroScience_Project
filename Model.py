@@ -22,6 +22,9 @@ import faiss
 import random
 from datetime import datetime
 import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
+
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.sentiment import SentimentIntensityAnalyzer
@@ -3399,4 +3402,5 @@ def main():
             st.info("👈 Analyze a dream first to see fMRI analysis!")
 
 if __name__ == "__main__":
+
     main()
