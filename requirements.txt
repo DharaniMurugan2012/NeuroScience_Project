@@ -1,3 +1,4 @@
+pip>=25.3
 numpy==1.26.4
 pandas==2.2.2
 faiss-cpu==1.7.4
@@ -37,3 +38,4 @@ plotly==5.24.1
 gensim==4.3.3
 nlpaug==1.1.11
 textblob==0.17.1
+
